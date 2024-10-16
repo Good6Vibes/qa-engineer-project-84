@@ -62,11 +62,59 @@
 - summary: |
     Проверка фильтрации товаров
   requirement: |
-    Пользователь должен иметь возможность искать товары по ключевому слову
+    Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   steps: |
-    - Нажать на поле поиска "Search"
-    - Начать вводить ключевое слово в строку поиска
+    - Выбрать в выпадающем списке "Category" значение "beauty"
+    - В столбце "Brand" выбрать бренды "Essence", "Glamour Beauty", "Velvet Touch", "Chic Cosmetics", "Nail Couture"
   expected-result: |
-     Названия товаров должны начинаться с уже введенных в поле поиска букв
+     В каталоге товаров появились все товары выбранной категории и бренд
+
+     - summary: |
+    Проверка фильтрации товаров
+  requirement: |
+    Пользователь должен иметь возможность фильтровать товары
+  prerequisites: |
+    Открыта главная страница: https://hexlet-products-store.vercel.app/
+  steps: |
+    - Выбрать в выпадающем списке "Category" значение "fragrances"
+    - В столбце "Brand" выбрать бренды "Calvin Klein", "Chanel", "Dior", "Dolce & Gabbana", "Gucci"
+  expected-result: |
+     В каталоге товаров появились все товары выбранной категории и бренда
+
+     - summary: |
+    Проверка фильтрации товаров
+  requirement: |
+    Пользователь должен иметь возможность фильтровать товары
+  prerequisites: |
+    Открыта главная страница: https://hexlet-products-store.vercel.app/
+  steps: |
+    - Выбрать в выпадающем списке "Category" значение "furniture"
+    - В столбце "Brand" выбрать бренды "Annibale Colombo", "Furniture Co.", "Knoll", "Bath Trends"
+  expected-result: |
+     В каталоге товаров появились все товары выбранной категории и бренда
+
+     - summary: |
+    Проверка фильтрации товаров
+  requirement: |
+    Пользователь должен иметь возможность фильтровать товары
+  prerequisites: |
+    Открыта главная страница: https://hexlet-products-store.vercel.app/
+  steps: |
+    - Выбрать в выпадающем списке "Category" значение "beauty"
+    - В столбце "Brand" выбрать бренды "Essence", "Glamour Beauty", "Velvet Touch", "Chic Cosmetics", "Nail Couture"
+  expected-result: |
+     В каталоге товаров появились все товары выбранной категории и бренда
+
+- summary: |
+    Проверка фильтрации товаров
+  requirement: |
+    Пользователь должен иметь возможность фильтровать товары
+  prerequisites: |
+    Открыта главная страница: https://hexlet-products-store.vercel.app/
+  steps: |
+    - Выбрать в выпадающем списке "Category" значение "groceries"
+    - В столбце "Brand" выбрать последний чек-бокс без названия
+  expected-result: |
+     В каталоге товаров появились все товары выбранной категории
