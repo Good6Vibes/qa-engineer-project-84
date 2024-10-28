@@ -73,3 +73,21 @@ bugreports:
       Код верификации приходит на почту и пользователь успешно регистрируется
     actual-result: |
       Код верификации не приходит на почту, регистрация невозможна
+
+  - summary: |
+      Не работает регистрация через GitHub
+    environment: |
+      Google Chrome  130.0.6723.70 (Официальная сборка) (64 бит)
+      Microsoft Windows 10.0.19045.5011
+      version 2
+    steps-to-reproduce: |
+      1. Перейти на главную страницу по ссылке: https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Нажать на "Log in to interact"
+      3. Нажать на "Continue with GitHub"
+    expected-result: |
+      Успешная регистрация через GitHub
+    actual-result: |
+      Ошибка при регистрации
+      Ошибка изображена на скриншоте Регистрация по гитхаб.png
+
+      
