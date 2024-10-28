@@ -102,6 +102,19 @@ bugreports:
     expected-result: |
       На странице напротив кнопки "Previous" присутствует кнопка "Next", нажав на которую появится следующая страница с товарами
     actual-result: |
-      Ошибка при регистрации
       На странице есть только кнопка "Previous", отсутствует кнопка "Next".
       В интернет-магазине есть только 2 страницы товаров
+      
+  - summary: |
+      При добавлении нескольких товаров в корзину кнопка "Delete" съезжает в разные стороны
+    environment: |
+      Google Chrome  130.0.6723.70 (Официальная сборка) (64 бит)
+      Microsoft Windows 10.0.19045.5011
+      version 2
+    steps-to-reproduce: |
+      1. Перейти на главную страницу по ссылке: https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Нажать на кнопку "Cart"
+    expected-result: |
+      Кнопки "Delete" расположены строго под друг другом
+    actual-result: |
+      Кнопки "Delete" расположены "лесенкой", криво
