@@ -48,11 +48,11 @@ test-cases:
       Проверка фильтрации товаров по цене
     status: pass
 
-    - summary: |
+  - summary: |
       Проверка фильтрации товаров по фильтру "In Stock"
     status: pass 
 
-    - summary: |
+  - summary: |
       Проверка изменения количества товара в корзине
     status: fail
 
