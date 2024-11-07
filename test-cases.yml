@@ -483,3 +483,29 @@
     - Ввести тестовые данные
   expected-result: |
     Рядом с инпутом должно появиться предупреждение "Недопустимые символы в запросе"
+
+- summary: |
+    Проверка функциональности интернет-магазина в браузере Firefox
+  requirement: |
+    Интернет-магазин должен быть кроссбраузерным
+  prerequisites: |
+    Открыта главная страница: https://hexlet-products-store.vercel.app/
+  test-data: |
+    empty
+  steps: |
+    - empty
+  expected-result: |
+    Страницы интернет-магазина отображается корректно
+
+- summary: |
+    Проверка функциональности интернет-магазина на мобильном устройстве
+  requirement: |
+    Интернет-магазин должен быть кроссбраузерным
+  prerequisites: |
+    Открыта главная страница: https://hexlet-products-store.vercel.app/
+  test-data: |
+    empty
+  steps: |
+    - empty
+  expected-result: |
+    Страницы интернет-магазина отображается корректно
