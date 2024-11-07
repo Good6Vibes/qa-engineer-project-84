@@ -139,8 +139,7 @@
   requirement: |
     В корзине должна отображаться общая сумма всех лежащих в ней товаров
   prerequisites:
-    "Открыта страница корзины https://hexlet-products-store.vercel.app/cart"
-    В корзине лежат 2 товара
+    "Открыта страница корзины https://hexlet-products-store.vercel.app/cart, в корзине лежат 2 товара"
   test-data: |
     empty
   steps:
@@ -213,8 +212,7 @@
   requirement: |
     После оформления заказа должна появляться страница оплаты
   prerequisites:
-    "Открыта корзина https://hexlet-products-store.vercel.app/cart"
-    В корзине имеются товары
+    "Открыта корзина https://hexlet-products-store.vercel.app/cart, в корзине имеются товары"
   test-data: |
     empty
   steps:
@@ -255,8 +253,7 @@
   requirement: |
     Пользователь должен иметь возможность переключать язык интерфейса
   prerequisites:
-    "Открыта главная страница https://hexlet-products-store.vercel.app/"
-    Интерфейс сайта на английском языке
+    "Открыта главная страница https://hexlet-products-store.vercel.app/, интерфейс сайта на английском языке"
   test-data: |
     empty
   steps:
@@ -270,8 +267,7 @@
   requirement: |
     Пользователь должен иметь возможность переключать язык интерфейса
   prerequisites:
-    "Открыта главная страница https://hexlet-products-store.vercel.app/"
-    Интерфейс сайта на русском языке
+    "Открыта главная страница https://hexlet-products-store.vercel.app/, интерфейс сайта на русском языке"
   test-data: |
     empty
   steps:
