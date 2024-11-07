@@ -393,8 +393,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары по цене
   prerequisites:
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
-    На странице есть товары с различными ценами
+    Открыта главная страница: https://hexlet-products-store.vercel.app/, на странице есть товары с различными ценами
   test-data: |
     empty
   steps:
