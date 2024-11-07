@@ -123,8 +123,7 @@
   requirement: |
     Товар должен сохраняться в корзине после поиска на сайте
   prerequisites:
-    "Открыта страница корзины https://hexlet-products-store.vercel.app/cart"
-    В корзине есть товар
+    "Открыта страница корзины https://hexlet-products-store.vercel.app/cart, в корзине есть товар"
   test-data: |
     empty
   steps:
