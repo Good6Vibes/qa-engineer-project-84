@@ -3,11 +3,11 @@
     Проверка доступа к главной странице
   requirement: |
     Пользователь должен иметь возможность попасть на сайт
-  prerequisites: |
+  prerequisites:
     Пользователь имеет доступ в интернет
   test-data: |
     empty
-  steps: |
+  steps:
     - Перейти по ссылке https://hexlet-products-store.vercel.app/
   expected-result: |
     Появляется главная страница со списком товаров
@@ -16,11 +16,11 @@
     Проверка добавления товара из общего каталога в корзину
   requirement: |
     Пользователь должен иметь возможность добавлять товар из каталога в корзину
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать на кнопку "Add to cart" на товаре
     - В хедере страницы нажать на "Cart"
   expected-result: |
@@ -30,11 +30,11 @@
     Проверка добавления товара со страницы товара в корзину
   requirement: |
     Пользователь должен иметь возможность добавлять товар со страницы товара в корзину
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать на товар в каталоге
     - Нажать на "Add to cart"
     - В хедере страницы нажать на "Cart"
@@ -45,11 +45,11 @@
     Проверка добавления нескольких одинаковых товаров из общего каталога в корзину
   requirement: |
     Пользователь должен иметь возможность добавлять несколько одинаковых товаров из общего каталога в корзину
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - На карточке товара нажать на кнопку "Add to cart" 5 раз
     - В хедере страницы нажать на "Cart"
   expected-result: |
@@ -59,11 +59,11 @@
     Проверка добавления нескольких одинаковых товаров со страницы товара в корзину
   requirement: |
     Пользователь должен иметь возможность добавлять несколько одинаковых товаров со страницы товара в корзину
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать на товар в каталоге
     - Нажать на "Add to cart" 5 раз
     - В хедере страницы нажать на "Cart"
@@ -74,11 +74,11 @@
     Проверка добавления нескольких разных товаров из общего каталога в корзину
   requirement: |
     Пользователь должен иметь возможность добавлять несколько разных товаров из общего каталога в корзину
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - На карточке одного  товара нажать на кнопку "Add to cart" 5 раз
     - На карточке другого товара нажать на кнопку "Add to cart" 5 раз
     - В хедере страницы нажать на "Cart"
@@ -89,11 +89,11 @@
     Проверка добавления нескольких разных товаров со страницы товара в корзину
   requirement: |
     Пользователь должен иметь возможность добавлять несколько разных товаров со страницы товара в корзину
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать на один товар в каталоге
     - Нажать на кнопку "Add to cart" 5 раз
     - В хедере страницы нажать на "Store"
@@ -107,11 +107,11 @@
     Проверка удаления товара из корзины
   requirement: |
     Пользователь должен иметь возможность удалять товары из корзины
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Добавить товар в корзину, нажав на "Add to cart"
     - В хедере страницы нажать на "Cart"
     - Нажать на товаре на кнопку "Delete"
@@ -166,11 +166,11 @@
     Проверка оформления заказа
   requirement: |
     Пользователь должен иметь возможность оформить заказ
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Добавить товар в корзину, нажав на "Add to cart"
     - В хедере страницы нажать на "Cart"
     - Нажать на кнопку "Checkout"
@@ -181,11 +181,11 @@
     Проверка закрытия окна об успешном оформлении заказа через кнопку "Close"
   requirement: |
     Окно об успешном оформлении заказа должно закрываться при нажатии на кнопку "Close"
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Добавить товар в корзину, нажав на "Add to cart"
     - В хедере страницы нажать на "Cart"
     - Нажать на кнопку "Checkout"
@@ -197,11 +197,11 @@
     Проверка закрытия окна об успешном оформлении заказа через кнопку "крестик"
   requirement: |
     Окно об успешном оформлении заказа должно закрываться при нажатии на кнопку "крестик"
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Добавить товар в корзину, нажав на "Add to cart"
     - В хедере страницы нажать на "Cart"
     - Нажать на кнопку "Checkout"
@@ -213,12 +213,12 @@
     Проверка перехода на страницу оплаты после оформления заказа
   requirement: |
     После оформления заказа должна появляться страница оплаты
-  prerequisites: |
+  prerequisites:
     Открыта корзина https://hexlet-products-store.vercel.app/cart
     В корзине имеются товары
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать на кнопку "Checkout"
   expected-result: |
     После оформления заказа пользователя должно пернести на страницу оплаты
@@ -227,11 +227,11 @@
     Функция очистки корзины
   requirement: |
     Пользователь должен иметь возможность очистить корзину
-  prerequisites: |
+  prerequisites:
     Открыта корзина https://hexlet-products-store.vercel.app/cart
   test-data: |
     empty
-  steps: |
+  steps:
     - Добавить товар в корзину, нажав на "Add to cart"
     - В хедере страницы нажать на "Cart"
     - Нажать на кнопку "Clear cart"
@@ -242,11 +242,11 @@
     Возвращение из корзины на главную страницу
   requirement: |
     Пользователь должен иметь возможность вернуться из корзины на главную страницу
-  prerequisites: |
+  prerequisites:
     Открыта корзина https://hexlet-products-store.vercel.app/cart
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать на кнопку "Continue shopping"
   expected-result: |
     Пользователь возвращается из корзины на главную страницу с каталогом товаров 
@@ -255,12 +255,12 @@
     Проверка функции смены языка интерфейса с английского на русский
   requirement: |
     Пользователь должен иметь возможность переключать язык интерфейса
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
     Интерфейс сайта на английском языке
   test-data: |
     empty
-  steps: |
+  steps:
     - В хедере страницы нажать на выпадающее окно "Language"
     - Выбрать язык "Russian"
   expected-result: |
@@ -270,12 +270,12 @@
     Проверка функции смены языка интерфейса с русского на английский
   requirement: |
     Пользователь должен иметь возможность переключать язык интерфейса
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
     Интерфейс сайта на русском языке
   test-data: |
     empty
-  steps: |
+  steps:
     - В хедере страницы нажать на выпадающее окно "Language"
     - Выбрать язык "English"
   expected-result: |
@@ -285,11 +285,11 @@
     Переход на следующую страницу в каталоге товаров
   requirement: |
     Пользователь должен иметь возможность перейти к следующей странице товаров
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Наверху каталога страницы нажать на кнопку "Next"
   expected-result: |
     Пользователь оказался на следующей странице каталога товаров
@@ -298,11 +298,11 @@
     Переход на предыдущую страницу в каталоге товаров
   requirement: |
     Пользователь должен иметь возможность переключаться между страницами с товарами
-  prerequisites: |
+  prerequisites:
     Открыта главная страница https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Наверху каталога страницы нажать на кнопку "Next"
     - Наверху каталога страницы нажать на кнопку "Previous"
   expected-result: |
@@ -312,11 +312,11 @@
     Фильтрация товаров по категории
   requirement: |
     Пользователь должен иметь возможность фильтрации товаров по категории
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - На боковой панели нажать на выпадающий список "Category"
     - Выбрать конкретную категорию товаров
   expected-result: |
@@ -339,11 +339,11 @@
     Фильтрация товаров по производителю
   requirement: |
     Пользователь должен иметь возможность фильтрации товаров по производителю
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - На боковой панели нажать на чекбокс любого бренда
   expected-result: |
    На странице должны отображаться товары выбранного производителя
@@ -365,11 +365,11 @@
     Поиск товаров по ключевому слову
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - На боковой панели нажать на поле поиска "Search"
     - Ввести в поле поиска любое название товара
   expected-result: |
@@ -379,11 +379,11 @@
     Фильтрация товаров по фильтру "In Stock"
   requirement: |
     Пользователь должен иметь возможность просматривать все товары каталога
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - На боковой панели убрать галочку с чек-бокса "In Stock"
   expected-result: |
      В каталоге появились все товары каталога
@@ -392,12 +392,12 @@
     Фильтрация товаров по цене
   requirement: |
     Пользователь должен иметь возможность фильтровать товары по цене
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
     На странице есть товары с различными ценами
   test-data: |
     empty
-  steps: |
+  steps:
     - На боковой панели страницы ввести в окна "From-To" 5 и 20
   expected-result: |
     На странице должны отобразиться все товары выбранного ценового диапазона
@@ -419,11 +419,11 @@
     Отображение товаров в каталоге
   requirement: |
     В каталоге товаров должны быть название, рейтинг, цена со скидкой и без нее
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Проверить каталог товаров
   expected-result: |
     В каталоге товаров присутствуют название, рейтинг, цена со скидкой и без нее
@@ -432,11 +432,11 @@
     Отображение страницы товара
   requirement: |
     На странице каждого товара должны быть название, рейтинг, цена со скидкой и без нее
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать на товар из каталога
   expected-result: |
     На странице товара должны быть название, рейтинг, цена со скидкой и без нее
@@ -445,11 +445,11 @@
     Переход в категорию товара по хештегу на странице товара
   requirement: |
     Пользователь может перейти в категорию товара по хештегу на странице товара
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать на товар из каталога
     - Нажать на хештег с названием категории
   expected-result: |
@@ -459,11 +459,11 @@
     Проверка валидации поля поиска при вводе специальных символов
   requirement: |
     Нельзя вводить в поле поиска специальные символы
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     @#$%
-  steps: |
+  steps:
     - На боковой панели нажать на инпут "Search"
     - Ввести тестовые данные
   expected-result: |
@@ -473,11 +473,11 @@
     Проверка валидации поля поиска при вводе числовых данных
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     123
-  steps: |
+  steps:
     - На боковой панели нажать на инпут "Search"
     - Ввести тестовые данные
   expected-result: |
@@ -487,11 +487,11 @@
     Проверка функциональности интернет-магазина в браузере Firefox
   requirement: |
     Интернет-магазин должен быть кроссбраузерным
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - empty
   expected-result: |
     Страницы интернет-магазина отображается корректно
@@ -500,11 +500,11 @@
     Проверка функциональности интернет-магазина на мобильном устройстве
   requirement: |
     Интернет-магазин должен поддерживаться на мобильном устройстве
-  prerequisites: |
+  prerequisites:
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
     empty
-  steps: |
+  steps:
     - empty
   expected-result: |
     Интернет-магазин поддерживается на мобильном устройстве
