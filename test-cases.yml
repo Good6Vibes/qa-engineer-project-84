@@ -350,7 +350,7 @@
   prerequisites:
     "Открыта главная страница: https://hexlet-products-store.vercel.app/, выбран один из чекбоксов, показаны товары только этого производителя производителя"
   test-data: |
-    No data
+    empty
   steps:
     - Еще раз нажать на чекбокс данного производителя
   expected-result: |
